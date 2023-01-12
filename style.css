@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a.navbar-brand {
+	font-size: 25px;
+}
+select {
+	padding: 3px;
+	margin: 2px;
+}
+/* bannner Section */
+#home {
+	margin-top: 2.5rem;
+}
+.banner-wrapper {
+	padding: 20px;
+   background: #075aae;
+	color: white;
+}
+h1.banner-title{
+	padding: 2.5rem;
+	margin-top: 2rem;
+}
+.banner-text{
+	text-align: justify;
+    width: 80%;
+    padding-left: 2.3rem;}
+.b-btn1 {
+	width: 10%;
+	border: none;
+	padding: 0.8rem;
+	background: #fff;
+	color: blue;
+	margin-right: 1.5rem;
+}
+.b-btn2 {
+	width: 10%;
+	border: none;
+	padding: 0.8rem;
+	background: navy;
+	color: #fff;
+	margin-right: 1.5rem;
+}
+
+	
+
+
+/* services section */
+.card{
+	height: 50vh;
+}
+.card-text{
+	width: 100%;
+   text-align: justify;
+}
+
+/* testimonial section */
+img{
+    width: 100%;
+    height: 100%;
+}
+.image{
+	width: 150px;
+	border-radius: 50%;
+}
+/* about section */
+
+#about {
+	background-color:#075aae;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    text-align: center;
+	color: #fff;
+	padding-bottom: 2rem;
+
+	/* :#0029ff */
+}
+
+.about-title {
+
+}
+.about-text {
+text-align: justify;
+
+}
+.about-title {
+	padding-top: 2rem;
+}
+.about-text {
+	padding: 1rem;
+	line-height: 2.1rem;
+}
+.about-btn {
+	width: 13%;
+	border: none;
+	padding: 0.8rem;
+	background:#0029ff;
+	color: #fff;
+	margin-bottom: 3rem;
+	margin-left: 30rem;
+	margin-top: 1rem;
+}
+
+/* form section */
+.head{
+	background:#075aae;
+	 
+	
+	
+}
+.card-form{
+	height: 75vh;
+}
+.footer {
+	padding: 1rem;
+}
+.footer-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer-text {
+	margin-right: 1rem;
+}

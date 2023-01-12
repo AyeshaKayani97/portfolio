@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Daten Power | Home</title>
+</head>
+
+<body>
+    <!-- topbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand ps-3" href="#">DatenPower</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <select onchange="set_language()" name="language" id='language'>
+                            <option value=""> Select Language</option>
+                            <option value="en">EN</option>
+                            <option value="hi">HI</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner section -->
+    <section id="home" class="banner">
+        <div class="container-fluid banner-wrapper">
+            <div class="row">
+                <div class="col-lg col-md col-sm">
+                <h1 class="banner-title">Let Me Help You Overshoot Your Goals in the Right Ways.</h1>
+            <p class="banner-text mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, nostrud exercitation ullamco
+                laboris.</p>
+            <div class=" banner-btn mt-5 ">
+                <button class=" btn btn-primary b-btn1">Start now</button>
+                <button class="btn btn-priimary b-btn2">Read More</button>
+            </div>
+
+                </div>
+            </div>
+            
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- services section -->
+    <section id="services" class="main">
+        <div class="container mt-5">
+            <h5 class="text-center display-3">What I Do</h5>
+            <hr class="w-25 mx-auto my-3" />
+            <div class="row pt-4 ">
+                <div class="col-12 col-sm-6 col-md-4 mx-auto my-3">
+                    <div class="card p-3 border-0 shadow ">
+                        <div class="card-body text-center">
+                            <div class="card-title fw-bold fs-3">
+                                FTP/Email Datenverarbeitung
+                            </div>
+                            <hr />
+                            <p class="card-text">Beispiel: Preislisten und/oder Bestandslisten von mehreren Lieferanten automatisiert
+                                abholen und in JTL Wawi importieren.</p>
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mx-auto my-3">
+                    <div class="card p-3 border-0 shadow">
+                        <div class="card-body text-center">
+                            <div class="card-title fw-bold fs-3">
+                                CSV/Excel Dateibearbeitung
+                            </div>
+                            <hr />
+                            <p class="card-text">Beispiel: Täglich Daten aus mehreren CSV- und/oder Excel-Dateien in
+                                einer neuen Tabelle zusammenfassen, um jede Menge händische Arbeit zu vermeiden.</p>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mx-auto my-3">
+                    <div class="card p-3 border-0 shadow">
+                        <div class="card-body text-center">
+                            <div class="card-title fw-bold fs-3">
+                                Webscraping
+                            </div>
+                            <hr />
+                            <p class="card-text">Beispiel: Sie benötigen spezifische Daten aus eBay, Amazon oder von einer beliebigen
+                                anderen Website. Wir liefern alles exakt im gewünschten Format. Einmal,
+                                wöchentlich oder täglich.</p>
+                           
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- about section -->
+    <section id="about">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg col-md col-sm">
+                    <h1 class="about-title">About Me</h1>
+                    <p class="about-text">Wir kommen eigentlich aus dem KFZ-Teile-Verkauf und haben JTL „auf die harte
+                        Tour“ erlernt. Wir sind keine Universalexperten wie diverse Agenturen, aber dafür kennen wir uns
+                        gut mit Datenimport und -export aus, inkl. verschiedener Schwierigkeiten, die dabei auftreten
+                        können: z.B. Bereitstellung der Daten per Mail oder auf einem Server. Als Dateianhang, ohne EAN,
+                        obwohl diese benötigt wird. Wir waren selbst damit konfrontiert und haben diese Sachverhalte –
+                        mit viel Lehrgeld - intern gelöst. Jetzt sind wir soweit, dieses Wissen Händlerkollegen
+                        anzubieten. Viele Händler ahnen nicht, wie viel leichter und sicherer das (Berufs)Leben mit
+                        Automatisierung werden kann.</p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial section -->
+   
+       <!-- Carousel wrapper -->
+<div id="carouselExampleControls" class="carousel slide text-center carousel-dark" data-mdb-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="rounded-circle shadow-1-strong mb-4"
+        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar"
+        style="width: 150px;" />
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <h5 class="mb-3">Maria Kate</h5>
+          <p>Photographer</p>
+          <p class="text-muted">
+            <i class="fas fa-quote-left pe-2"></i>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+            nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
+            fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit
+            doloremque.
+          </p>
+        </div>
+      </div>
+      <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+        <li><i class="fas fa-star fa-sm"></i></li>
+        <li><i class="fas fa-star fa-sm"></i></li>
+        <li><i class="fas fa-star fa-sm"></i></li>
+        <li><i class="fas fa-star fa-sm"></i></li>
+        <li><i class="far fa-star fa-sm"></i></li>
+      </ul>
+    </div>
+    <div class="carousel-item">
+      <img class="rounded-circle shadow-1-strong mb-4"
+        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"
+        style="width: 150px;" />
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <h5 class="mb-3">John Doe</h5>
+          <p>Web Developer</p>
+          <p class="text-muted">
+            <i class="fas fa-quote-left pe-2"></i>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+            nesciunt sint eligendi reprehenderit reiciendis.
+          </p>
+        </div>
+      </div>
+      <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+        <li><i class="fas fa-star fa-sm"></i></li>
+        <li><i class="fas fa-star fa-sm"></i></li>
+        <li><i class="fas fa-star fa-sm"></i></li>
+        <li><i class="fas fa-star fa-sm"></i></li>
+        <li><i class="far fa-star fa-sm"></i></li>
+      </ul>
+    </div>
+    <div class="carousel-item">
+      <img class="rounded-circle shadow-1-strong mb-4"
+        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar" style="width: 150px;" />
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <h5 class="mb-3">Anna Deynah</h5>
+          <p>UX Designer</p>
+          <p class="text-muted">
+            <i class="fas fa-quote-left pe-2"></i>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+            nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
+            fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit
+            doloremque.
+          </p>
+        </div>
+      </div>
+      <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+        <li><i class="fas fa-star fa-sm"></i></li>
+        <li><i class="fas fa-star fa-sm"></i></li>
+        <li><i class="fas fa-star fa-sm"></i></li>
+        <li><i class="fas fa-star fa-sm"></i></li>
+        <li><i class="far fa-star fa-sm"></i></li>
+      </ul>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleControls"
+    data-mdb-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleControls"
+    data-mdb-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Carousel wrapper -->
+
+    
+
+
+    <!-- form section -->
+    <section  id="contact" class="head">
+        <div class="container py-5">
+            <div class="card card-form">
+                <div class="card-body">
+                    <h1 class="text-center py-3">Contact Us</h1>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="row pt-2">
+                                <div class="col-lg-1 offset-1 col-md-2 col-sm-2 col-2">
+
+
+                                </div>
+                                <div class="col-lg-10 col-md-9 col-sm-9 col-9">
+                                    <p><b>GET IN TOUCH/So erreichen Sie uns:</b><br>
+                                        Sie können uns gerne mailen oder anrufen oder auch vorbeischauen.</p>
+                                </div>
+                            </div>
+                            <div class="row pt-2">
+                                <div class="col-lg-1 offset-1 col-md-2 col-sm-2 col-2">
+
+
+                                </div>
+                                <div class="col-lg-10 col-md-9 col-sm-9 col-9">
+                                    <p><b>Telefon:</b>
+                                        +xx (xxxx) xxxxxxx</p>
+                                </div>
+                            </div>
+                            <div class="row pt-2">
+                                <div class="col-lg-1 offset-1 col-md-2 col-sm-2 col-2">
+
+
+                                </div>
+                                <div class="col-lg-10 col-md-9 col-sm-9 col-9">
+                                    <p><b>Email:</b>
+                                        info@datenpower.com</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-1 offset-1 col-md-2 col-sm-2 col-2">
+
+
+                                </div>
+                                <div class="col-lg-10 col-md-9 col-sm-9 col-9">
+                                    <p><b>Visit us/Besuchsadresse:</b><br>
+                                        Birkleinweg 30, D-95680 Bad Alexandersbad
+                                        [16:13, 11/01/2023] +92 334 4448686:</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                            <form action="">
+                                <div class="form-row">
+<Table>
+<tr>
+<td>
+                                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <input type="text" placeholder="First Name" class="form-control">
+                                    </div>
+</td>
+<td>
+                                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-12">
+
+                                        <input type="text" placeholder="Last Name" class="form-control ms-3">
+                                    </div>
+
+</td>
+ </tr>
+</table>
+</div>
+
+
+
+                                <input type="email" placeholder="Email" class="form-control mt-2 mb-3">
+
+
+                                <textarea placeholder="Enter your message" class="form-control t-3 mb-3" cols="10"
+                                    rows="5"></textarea>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+ <!-- footer section  -->
+    <section id="footer" class="footer-wrapper">
+        <div class="container-fluid  mt-5">
+            <div class="footer-content">
+                <p class='footer-title'>Copyright © 2023 Daten Power</p>
+                <p class="footer-text">Powered by Daten Power</p>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script>
+    function set_language() {
+        let language = jQuery('#language').val();
+        window.location.href = 'http://localhost/datenpower/?language='+ language;
+    }
+    </script>
+</body>
+
+</html>
